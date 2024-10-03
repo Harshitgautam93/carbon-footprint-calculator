@@ -1,0 +1,30 @@
+/* src/Preloader.css */
+.preloader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Start invisible */
+    z-index: 999; /* On top of other elements */
+  }
+  
+  .text-left, .text-right {
+    color: white;
+    font-size: 48px;
+    position: relative;
+    opacity: 0; /* Start invisible */
+  }
+  
+  .text-left {
+    transform: translateX(-100%); /* Start from left */
+  }
+  
+  .text-right {
+    transform: translateX(100%); /* Start from right */
+  }
+  
