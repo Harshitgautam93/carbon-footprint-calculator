@@ -14,7 +14,7 @@
   }
   
   .text-left, .text-right {
-    color:red;
+    color:white;
     font-size: 48px;
     position: relative;
     opacity: 0; /* Start invisible */
