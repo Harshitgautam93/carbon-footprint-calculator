@@ -76,7 +76,7 @@ function App() {
 
           {/* Button to calculate footprint */}
           <div>
-            <button onClick={() => alert(`Your carbon footprint is ${calculateCO2()} kg CO2 per year`)}>
+            <button onClick={() => alert(`Your carbon footprint is ${calculateCO2().toFixed(2)} kg CO2 per year`)}>
               Calculate Footprint
             </button>
           </div>
